@@ -23,6 +23,12 @@ module Puppet
 			defaultto ""
 		end
 
+		newparam(:serviceport) do
+			desc "The port used for this service"
+			defaultto ""
+		end
+
+
 		newproperty(:ensure) do
 			desc "Whether the system is assigned to the correct pool or not"
 
